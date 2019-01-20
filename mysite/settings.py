@@ -101,6 +101,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 #Login
+
 LOGIN_REDIRECT_URL = '/'
 
 
