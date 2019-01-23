@@ -25,5 +25,5 @@ urlpatterns = [
     path('accounts/login/', views.LoginView.as_view(), name='login'),
     path('accounts/logout/', views.LogoutView.as_view(next_page='/'), name='logout'),
     path('', include('blog.urls')),
-    url(r'^signup/$', core_views.signup, name='signup'),
+    path(r'^signup/$', core_views.signup, name='signup'),
    ]
